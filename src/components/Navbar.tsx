@@ -141,10 +141,11 @@ export default function Navbar() {
                                     href="https://wa.me/628973207214?text=Halo%20Admin%20Another%20Voltz%2C%20saya%20ingin%20konsultasi%20mengenai%20project%20tugas%20kuliah%2Fskripsi."
                                     target="_blank"
                                     rel="noopener noreferrer"
+                                    className="block w-full"
                                 >
-                                    <button className="w-full py-4 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold font-mono tracking-widest rounded-xl shadow-lg shadow-cyan-500/20">
+                                    <div className="w-full py-4 text-center bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold font-mono tracking-widest rounded-xl shadow-lg shadow-cyan-500/20">
                                         START PROJECT
-                                    </button>
+                                    </div>
                                 </a>
                             </motion.div>
                         </nav>
