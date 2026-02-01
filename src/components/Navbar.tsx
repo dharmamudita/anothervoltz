@@ -131,9 +131,15 @@ export default function Navbar() {
                                 transition={{ delay: 0.5 }}
                                 className="mt-4"
                             >
-                                <button className="w-full py-4 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold font-mono tracking-widest rounded-xl shadow-lg shadow-cyan-500/20">
-                                    START PROJECT
-                                </button>
+                                <a
+                                    href="https://wa.me/628973207214?text=Halo%20Admin%20Another%20Voltz%2C%20saya%20ingin%20konsultasi%20mengenai%20project%20tugas%20kuliah%2Fskripsi."
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <button className="w-full py-4 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold font-mono tracking-widest rounded-xl shadow-lg shadow-cyan-500/20">
+                                        START PROJECT
+                                    </button>
+                                </a>
                             </motion.div>
                         </nav>
                     </motion.div>
