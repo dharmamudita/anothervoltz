@@ -73,9 +73,16 @@ export default function Pricing() {
                                 ))}
                             </ul>
 
-                            <button className={`w-full py-4 rounded-xl font-bold text-sm tracking-widest uppercase transition-all ${plan.popular ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-lg shadow-cyan-500/20 hover:scale-105' : 'bg-white/10 text-white hover:bg-white/20'}`}>
-                                Choose Plan
-                            </button>
+                            <a
+                                href={`https://wa.me/628973207214?text=Halo%20Admin%20Another%20Voltz%2C%20saya%20tertarik%20dengan%20paket%20${plan.name}%20(${plan.price}).%20Boleh%20konsultasi%3F`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="block w-full"
+                            >
+                                <div className={`w-full py-4 rounded-xl font-bold text-sm tracking-widest uppercase text-center transition-all ${plan.popular ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-lg shadow-cyan-500/20 hover:scale-105' : 'bg-white/10 text-white hover:bg-white/20'}`}>
+                                    Choose Plan
+                                </div>
+                            </a>
                         </motion.div>
                     ))}
                 </div>
