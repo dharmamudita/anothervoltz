@@ -59,13 +59,19 @@ export default function Navbar() {
                                 </Link>
                             </MagneticButton>
                         ))}
-                        <motion.button
-                            whileHover={{ scale: 1.05, boxShadow: "0 0 30px rgba(6,182,212,0.6)" }}
-                            whileTap={{ scale: 0.95 }}
-                            className="ml-4 px-6 py-3 bg-gradient-to-r from-cyan-500 to-cyan-400 text-black text-xs font-bold tracking-widest font-mono rounded-lg shadow-[0_0_20px_rgba(6,182,212,0.4)]"
+                        <a
+                            href="https://wa.me/628973207214?text=Halo%20Admin%20Another%20Voltz%2C%20saya%20ingin%20konsultasi%20mengenai%20project%20tugas%20kuliah%2Fskripsi."
+                            target="_blank"
+                            rel="noopener noreferrer"
                         >
-                            START_PROJECT
-                        </motion.button>
+                            <motion.button
+                                whileHover={{ scale: 1.05, boxShadow: "0 0 30px rgba(6,182,212,0.6)" }}
+                                whileTap={{ scale: 0.95 }}
+                                className="ml-4 px-6 py-3 bg-gradient-to-r from-cyan-500 to-cyan-400 text-black text-xs font-bold tracking-widest font-mono rounded-lg shadow-[0_0_20px_rgba(6,182,212,0.4)]"
+                            >
+                                START_PROJECT
+                            </motion.button>
+                        </a>
                     </div>
 
                     {/* Mobile Menu Button - Visible up to Large Screens */}
